@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>arrays</title>
+</head>
+<body>
+<p id="ar">Working with jsarrays</p>
+<script>
+const sub = ['python' , 'java' , 'wt' , 'cc' , 'ml'];
+const sr = [];
+sr [0] = 'first';
+sr [1] = 'second';
+sr[2] = 'third';
+const ar2 = new Array('hi' , 'hello' , 'welcome' , 'to' , 'javascript');
+document.getElementById("ar").innerHTML=ar2;
+document.write(ar2[2]);
+subpush("AIML");
+document.write(sub+"<br>");
+sub.shift()
+document.write(sub);
+sub.concat(sr+"<br>");
+document.write(sub+"<br>");
+sub.copyWithin(2,0);
+document.write(sub);
+</script>
+</body>
+</html>
